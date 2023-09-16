@@ -43,15 +43,16 @@
     float: left;
     width: 80%;
 }
-.menu-items p{
+.menu-items a{
     margin-left: 20px;
     display: flex;
     align-items: center;
     font-weight: 600;
     color: rgb(17, 1, 77);
+    text-decoration: none;
 }
 
-.menu-items p:hover{
+.menu-items a:hover{
     color: #009B9A;
     cursor: pointer;
 }
