@@ -29,9 +29,12 @@
     background-size: cover;
     height: 88px;
     width: 63%; 
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     
+}
+.company_logo:hover{
+   cursor: pointer;
 }
 
 .menu-items{
@@ -46,6 +49,11 @@
     align-items: center;
     font-weight: 600;
     color: rgb(17, 1, 77);
+}
+
+.menu-items p:hover{
+    color: #009B9A;
+    cursor: pointer;
 }
 
 .menu-items i{
@@ -70,6 +78,10 @@
     color: rgb(7, 0, 73);
 }
 
+.login-text a:hover{
+    color: #009B9A;
+}
+
 .Demo-button{
     width: 200px;
     display: flex;
@@ -90,4 +102,8 @@
     text-decoration: none; /* Remove underline on links */
     transition: background-color 0.3s ease; /* Smooth background color transition on hover */
     height: 40px;
+}
+
+.button:hover{
+    background-color: #009B9A;
 }
